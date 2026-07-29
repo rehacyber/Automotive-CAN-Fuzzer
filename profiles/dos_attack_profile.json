@@ -1,0 +1,17 @@
+{
+    "profile_name": "CAN DoS Attack Simulation",
+
+    "test_type": "dos_attack",
+
+    "dos": {
+        "enabled": true,
+        "can_id": "0x123",
+        "rate": 100,
+        "duration": 10
+    },
+
+    "report": {
+        "json": true,
+        "csv": true
+    }
+}

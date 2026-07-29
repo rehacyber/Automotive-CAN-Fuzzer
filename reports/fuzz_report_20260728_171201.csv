@@ -1,0 +1,5 @@
+Parameter,Value
+test_type,replay_fuzz
+mutation_mode,random
+message_count,3
+mutation_results,"[{'can_id': '0x123', 'original_data': '1122334455667788', 'mutated_data': '1122339955667788', 'mutation_mode': 'random'}, {'can_id': '0x124', 'original_data': 'AABBCCDDEEFF0011', 'mutated_data': 'AABBCC95EEFF0011', 'mutation_mode': 'random'}, {'can_id': '0x125', 'original_data': 'FFFFFFFF00000000', 'mutated_data': 'FFD7FFFF00000000', 'mutation_mode': 'random'}]"

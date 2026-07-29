@@ -1,0 +1,16 @@
+{
+    "profile_name": "Invalid Payload Attack",
+
+    "test_type": "invalid_payload",
+
+    "invalid_payload": {
+        "enabled": true,
+        "can_id": "0x123",
+        "delay": 0.5
+    },
+
+    "report": {
+        "json": true,
+        "csv": true
+    }
+}

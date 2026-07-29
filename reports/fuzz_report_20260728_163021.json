@@ -1,0 +1,10 @@
+{
+    "total_messages": 37,
+    "unique_can_ids": 1,
+    "runtime": "0:00:03.805543",
+    "can_mode": "custom",
+    "payload_mode": "random",
+    "generated_ids": [
+        291
+    ]
+}

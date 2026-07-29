@@ -1,0 +1,26 @@
+{
+    "profile_name": "Replay Fuzz Security Test",
+
+    "test_type": "replay_fuzz",
+
+    "replay": {
+        "enabled": true,
+        "file": "samples/replay_messages.json",
+        "delay": 1
+    },
+
+    "can_fuzz": {
+        "mode": "custom",
+        "custom_id": "0x123"
+    },
+
+    "payload_fuzz": {
+        "enabled": true,
+        "mode": "random"
+    },
+
+    "report": {
+        "json": true,
+        "csv": true
+    }
+}
